@@ -5,6 +5,8 @@
   @copyright: 2010-2013 Bang & Olufsen A/S
   @organization: Bang & Olufsen A/S
   @author: vsu
+
+  new changes in for the branch
 """
 
 import logging
