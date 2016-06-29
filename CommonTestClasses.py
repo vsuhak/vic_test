@@ -7,6 +7,7 @@
   @author: vsu
 
   new changes in for the branch
+  second changes
 """
 
 import logging
