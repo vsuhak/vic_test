@@ -8,6 +8,8 @@
 
   new changes in for the branch
   second changes
+
+  another one changes
 """
 
 import logging
