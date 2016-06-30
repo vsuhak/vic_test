@@ -10,6 +10,9 @@
   second changes
 
   another one changes
+
+  third branch
+
 """
 
 import logging
