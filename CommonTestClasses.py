@@ -3,6 +3,7 @@
   The module contains test cases' base classes and classes, which are necessary for execution of test cases.
 
  test line
+ test line
 
   @copyright: 2010-2013 Bang & Olufsen A/S
   @organization: Bang & Olufsen A/S
