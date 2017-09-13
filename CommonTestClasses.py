@@ -4,6 +4,7 @@
 
  test line
  test line
+ one more
 
   @copyright: 2010-2013 Bang & Olufsen A/S
   @organization: Bang & Olufsen A/S
