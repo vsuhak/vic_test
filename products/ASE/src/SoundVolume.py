@@ -1463,7 +1463,7 @@ if __name__ == "__main__":
 #   start_path = "/home/vsu/svn/beotest/Trunk/products"
 #   update_tc_xml_file(sys.modules[__name__], input_file, start_path)
 
-#  integration test
+#  integration test #1
   from BTE.src.TestRunner import BeoTestRunner
   from BTE.src.CommonTestClasses import BeoTestResult
 
