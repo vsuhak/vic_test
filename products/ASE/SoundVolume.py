@@ -1437,6 +1437,8 @@ class SoundVolume(BeoTestClass):
       -> Verify volume should be zero.
       -> Verify sound is not muted on product.
 
+    test comments webhook
+
     Hyperion::
       @Role: ASE
     """
