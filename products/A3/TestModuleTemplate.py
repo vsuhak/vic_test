@@ -5,6 +5,7 @@
   A short description of the module
 
   @author: *INITIALS*
+  changes in the branch test
 """
 from BTE.src.CommonTestClasses import BeoTestClass
 import Common.VideoEngine.CommonLib.src.Constants as a3_const
