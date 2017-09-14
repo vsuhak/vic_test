@@ -1,0 +1,591 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--define the location of the external DTD using a relative URL address-->
+<!DOCTYPE TestCases SYSTEM "http://hyperion.bang-olufsen.dk/Test/XML_TestCases.dtd">
+<TestCases>
+	<TestCase id="23012">
+		<TestCaseName>sound_maximum_volume_increase_continuously
+		</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_maximum_volume_increase_continuously</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="23011">
+		<TestCaseName>sound_volume_no_sound_limit_max_beyond</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_volume_no_sound_limit_max_beyond</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="23009">
+		<TestCaseName>sound_default_volume_increasing</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_default_volume_increasing</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="23008">
+		<TestCaseName>sound_default_volume_max_volume</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_default_volume_max_volume</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="23007">
+		<TestCaseName>sound_mute_remember_sound_volume</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_mute_remember_sound_volume</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="23006">
+		<TestCaseName>sound_unmute_sound_volume_increase_performance
+		</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_unmute_sound_volume_increase_performance</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="23005">
+		<TestCaseName>sound_volume_continuously_down_limit</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_volume_continuously_down_limit</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="23004">
+		<TestCaseName>sound_unmute_restore_sound_volume</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_unmute_restore_sound_volume</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="23003">
+		<TestCaseName>sound_volume_no_sound_limit_max</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_volume_no_sound_limit_max</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="23002">
+		<TestCaseName>sound_mute_performance</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_mute_performance</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="23001">
+		<TestCaseName>sound_source_change_pause_not_playing</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_source_change_pause_not_playing</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="23000">
+		<TestCaseName>sound_mute_change_sound_volume_over_60</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_mute_change_sound_volume_over_60</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22999">
+		<TestCaseName>sound_volume_performance</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_volume_performance</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22997">
+		<TestCaseName>sound_default_volume_max_absolute_volume
+		</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_default_volume_max_absolute_volume</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22996">
+		<TestCaseName>sound_unmute_sound_volume_increase_continuously
+		</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_unmute_sound_volume_increase_continuously</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22995">
+		<TestCaseName>sound_heard_after_unmute_volume_decreased_continuously_stopped
+		</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_heard_after_unmute_volume_decreased_continuously_stopped</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22994">
+		<TestCaseName>sound_maximum_volume_default_values</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_maximum_volume_default_values</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22993">
+		<TestCaseName>sound_unmute_sound_volume_increase_continuously_performance
+		</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_unmute_sound_volume_increase_continuously_performance</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22992">
+		<TestCaseName>sound_volume_continuously_up_limit</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_volume_continuously_up_limit</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22991">
+		<TestCaseName>sound_unmute_sound_volume_decrease</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_unmute_sound_volume_decrease</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22990">
+		<TestCaseName>sound_source_change_volume_preserve</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_source_change_volume_preserve</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22989">
+		<TestCaseName>sound_unmute_performance</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_unmute_performance</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22988">
+		<TestCaseName>sound_source_change_mute_not_playing</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_source_change_mute_not_playing</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22987">
+		<TestCaseName>sound_volume_no_sound_limit_min</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_volume_no_sound_limit_min</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22986">
+		<TestCaseName>sound_volume_standby_sound_volume_not_changed
+		</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_volume_standby_sound_volume_not_changed</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22985">
+		<TestCaseName>sound_source_change_not_playing</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_source_change_not_playing</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22984">
+		<TestCaseName>sound_pause_sound_volume_over_max</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_pause_sound_volume_over_max</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22983">
+		<TestCaseName>sound_volume_full_range_up_performance</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_volume_full_range_up_performance</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22982">
+		<TestCaseName>sound_maximum_volume_custom_values</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_maximum_volume_custom_values</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22981">
+		<TestCaseName>sound_maximum_volume_absolute</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_maximum_volume_absolute</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22980">
+		<TestCaseName>sound_maximum_volume_set_when_playing</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_maximum_volume_set_when_playing</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22979">
+		<TestCaseName>sound_unmute_sound_volume_increase</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_unmute_sound_volume_increase</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22978">
+		<TestCaseName>sound_default_volume_decreasing</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_default_volume_decreasing</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22977">
+		<TestCaseName>sound_unmute_sound_volume_decrease_continuously
+		</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_unmute_sound_volume_decrease_continuously</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22976">
+		<TestCaseName>sound_no_sound_command_accepted_in_standby
+		</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_no_sound_command_accepted_in_standby</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22975">
+		<TestCaseName>sound_volume_full_range_down_performance
+		</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_volume_full_range_down_performance</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22974">
+		<TestCaseName>sound_volume_no_sound_limit_min_beyond</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_volume_no_sound_limit_min_beyond</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22973">
+		<TestCaseName>sound_maximum_volume_set</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_maximum_volume_set</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22972">
+		<TestCaseName>sound_mute_change_sound_volume_over_max</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_mute_change_sound_volume_over_max</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+	<TestCase id="22971">
+		<TestCaseName>sound_unmute_sound_volume_decrease_performance
+		</TestCaseName>
+		<TestCaseDescription>
+      
+      
+      
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SoundVolume</Module>
+			<Method>sound_unmute_sound_volume_decrease_performance</Method>
+			<Class>SoundVolume</Class>
+			<Arguments />
+		</TestScript>
+	</TestCase>
+  <TestCase id="27713">
+    <TestCaseName>sound_zero_sound_volume_level
+    </TestCaseName>
+    <TestCaseDescription>
+      
+      
+      
+    </TestCaseDescription>
+    <TestScript>
+      <Module>ASE.src.SoundVolume</Module>
+      <Method>sound_zero_sound_volume_level</Method>
+      <Class>SoundVolume</Class>
+      <Arguments />
+    </TestScript>
+  </TestCase>
+  </TestCases>
