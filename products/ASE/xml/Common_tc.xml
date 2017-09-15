@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--define the location of the external DTD using a relative URL address -->
+<!DOCTYPE TestCases SYSTEM "http://hyperion.bang-olufsen.dk/Test/XML_TestCases.dtd">
+<TestCases>
+	<TestCase id="20703">
+		<TestCaseName>source_change_stress_random</TestCaseName>
+		<TestCaseDescription>
+      <![CDATA[
+      
+      ]]>
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SourceChange</Module>
+			<Method>source_change_stress_random</Method>
+			<Class>SourceChange</Class>
+			<Arguments>60</Arguments>
+		</TestScript>
+	</TestCase>
+	<TestCase id="32029">
+		<TestCaseName>source_change_stress_random_without_linein</TestCaseName>
+		<TestCaseDescription>
+      <![CDATA[
+      
+      ]]>
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SourceChange</Module>
+			<Method>source_change_stress_random</Method>
+			<Class>SourceChange</Class>
+			<Arguments>10,True</Arguments>
+		</TestScript>
+	</TestCase>
+	<TestCase id="20702">
+		<TestCaseName>source_change_stress</TestCaseName>
+		<TestCaseDescription>
+      <![CDATA[
+      
+      ]]>
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SourceChange</Module>
+			<Method>source_change_stress</Method>
+			<Class>SourceChange</Class>
+			<Arguments>60</Arguments>
+		</TestScript>
+	</TestCase>
+	<TestCase id="32030">
+		<TestCaseName>source_change_stress_without_linein</TestCaseName>
+		<TestCaseDescription>
+      <![CDATA[
+      
+      ]]>
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SourceChange</Module>
+			<Method>source_change_stress</Method>
+			<Class>SourceChange</Class>
+			<Arguments>10,True</Arguments>
+		</TestScript>
+	</TestCase>
+
+	<TestCase id="20701">
+		<TestCaseName>source_change</TestCaseName>
+		<TestCaseDescription>
+      <![CDATA[
+      
+      ]]>
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SourceChange</Module>
+			<Method>source_change</Method>
+			<Class>SourceChange</Class>
+			<Arguments></Arguments>
+		</TestScript>
+	</TestCase>
+
+	<TestCase id="22300">
+		<TestCaseName>source_change_mute</TestCaseName>
+		<TestCaseDescription>
+      <![CDATA[
+      
+      ]]>
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SourceChange</Module>
+			<Method>source_change_mute</Method>
+			<Class>SourceChange</Class>
+			<Arguments></Arguments>
+		</TestScript>
+	</TestCase>
+
+	<TestCase id="24444">
+		<TestCaseName>source_change_airplay_can_interrupt_other_source_playback</TestCaseName>
+		<TestCaseDescription>
+      <![CDATA[
+      
+      ]]>
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SourceChange</Module>
+			<Method>source_change_airplay_can_interrupt_other_source_playback</Method>
+			<Class>SourceChange</Class>
+			<Arguments></Arguments>
+		</TestScript>
+	</TestCase>
+
+	<TestCase id="24443">
+		<TestCaseName>source_change_bluetooth_can_interrupt_other_source_playback</TestCaseName>
+		<TestCaseDescription>
+      <![CDATA[
+      
+      ]]>
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SourceChange</Module>
+			<Method>source_change_bluetooth_can_interrupt_other_source_playback</Method>
+			<Class>SourceChange</Class>
+			<Arguments></Arguments>
+		</TestScript>
+	</TestCase>
+
+	<TestCase id="24442">
+		<TestCaseName>source_change_linein_can_interrupt_other_source_playback</TestCaseName>
+		<TestCaseDescription>
+      <![CDATA[
+      
+      ]]>
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SourceChange</Module>
+			<Method>source_change_linein_can_interrupt_other_source_playback</Method>
+			<Class>SourceChange</Class>
+			<Arguments></Arguments>
+		</TestScript>
+	</TestCase>
+
+	<TestCase id="24441">
+		<TestCaseName>source_change_tunein_can_interrupt_other_source_playback</TestCaseName>
+		<TestCaseDescription>
+      <![CDATA[
+      
+      ]]>
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SourceChange</Module>
+			<Method>source_change_tunein_can_interrupt_other_source_playback</Method>
+			<Class>SourceChange</Class>
+			<Arguments></Arguments>
+		</TestScript>
+	</TestCase>
+
+	<TestCase id="24440">
+		<TestCaseName>source_change_deezer_can_interrupt_other_source_playback</TestCaseName>
+		<TestCaseDescription>
+      <![CDATA[
+      
+      ]]>
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SourceChange</Module>
+			<Method>source_change_deezer_can_interrupt_other_source_playback</Method>
+			<Class>SourceChange</Class>
+			<Arguments></Arguments>
+		</TestScript>
+	</TestCase>
+
+	<TestCase id="24439">
+		<TestCaseName>source_change_DLNA_can_interrupt_other_source_playback</TestCaseName>
+		<TestCaseDescription>
+      <![CDATA[
+      
+      ]]>
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SourceChange</Module>
+			<Method>source_change_DLNA_can_interrupt_other_source_playback</Method>
+			<Class>SourceChange</Class>
+			<Arguments></Arguments>
+		</TestScript>
+	</TestCase>
+
+	<TestCase id="27712">
+		<TestCaseName>source_change_airplay_playback_for_long_duration</TestCaseName>
+		<TestCaseDescription>
+      <![CDATA[
+      
+      ]]>
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SourceChange</Module>
+			<Method>source_change_airplay_playback_for_long_duration</Method>
+			<Class>SourceChange</Class>
+			<Arguments></Arguments>
+		</TestScript>
+	</TestCase>
+
+	<TestCase id="30486">
+		<TestCaseName>source_change_tunein_playing_change_to_same_station</TestCaseName>
+		<TestCaseDescription>
+      <![CDATA[
+      
+      ]]>
+		</TestCaseDescription>
+		<TestScript>
+			<Module>ASE.src.SourceChange</Module>
+			<Method>source_change_tunein_playing_change_to_same_station</Method>
+			<Class>SourceChange</Class>
+			<Arguments></Arguments>
+		</TestScript>
+	</TestCase>
+</TestCases>
