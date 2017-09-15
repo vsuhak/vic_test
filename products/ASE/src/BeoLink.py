@@ -35,6 +35,7 @@ class BeoLink(BeoTestClass):
   @todo: if there is a functionality to reverse roles: Leader <-> Follower
   test changes
   test change #2
+  test change #3
   """
 #   # Settings for debugging
   _LONG_TIME = (15 * 60)  # 15 minutes
