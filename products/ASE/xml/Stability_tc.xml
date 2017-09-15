@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!--define the location of the external DTD using a relative URL address-->
+<!DOCTYPE TestCases SYSTEM "http://hyperion.bang-olufsen.dk/Test/XML_TestCases.dtd">
+<TestCases>
+
+  <TestCase id="32752">
+    <TestCaseName>clear_playqueue_add_tracks_and_play_repeat</TestCaseName>
+    <TestCaseDescription>
+    Tests stabillity of clearing and adding to playqueue
+    1. Clear queue
+    2. Set source
+    3. Try to play first track in playqueue
+    4. repeat 1-3
+    </TestCaseDescription>
+    <TestScript>
+      <Module>ASE.src.Stability</Module>
+      <Method>clear_playqueue_add_tracks_and_play_repeat</Method>
+      <Class>Stability</Class>
+      <Arguments></Arguments>
+    </TestScript>
+  </TestCase>
+  
+  <TestCase id="32751">
+    <TestCaseName>switch_source_repeat</TestCaseName>
+    <TestCaseDescription>
+    Test the stability of source switching
+    1. Set source
+    2. Verify source switch
+    3. repeat 1-2
+    </TestCaseDescription>
+    <TestScript>
+      <Module>ASE.src.Stability</Module>
+      <Method>switch_source_repeat</Method>
+      <Class>Stability</Class>
+      <Arguments></Arguments>
+    </TestScript>
+  </TestCase>
+
+  <TestCase id="32750">
+    <TestCaseName>play_pause_repeat</TestCaseName>
+    <TestCaseDescription>
+    Test stability of play pause functionality
+    1. Pause stream
+    2. Verify pause
+    3. Play stream
+    4. Verify play
+    5. repeat 1-4
+    </TestCaseDescription>
+    <TestScript>
+      <Module>ASE.src.Stability</Module>
+      <Method>play_pause_repeat</Method>
+      <Class>Stability</Class>
+      <Arguments></Arguments>
+    </TestScript>
+  </TestCase>
+  
+</TestCases>
