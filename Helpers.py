@@ -7,6 +7,7 @@
   @author: vsu
 
   @todo: consider rewriting xml stuff using ElementTree
+  test string
 """
 
 import httplib
